@@ -13,7 +13,7 @@ In this lab, you'll be creating a Cat class. Every instance of a Cat should have
 a name and be able to meow. In other words, I should be able to do:
 
 ```ruby
-maru = Dog.new
+maru = Cat.new
 maru.name = "Maru"
 
 maru.name
@@ -25,7 +25,7 @@ maru.meow
 
 ## Instructions
 
-Run the test suite to get started. You'll be writing all your code in the `lib/cat.rb` file.
+Run the test suite to get started. You'll be writing all your code in the `lib/meowing_cat.rb` file.
 
 1. Define a class, called Cat. 
 2. Use the `attr_accessor` macro to create a setter and getter method for a cat's name.
